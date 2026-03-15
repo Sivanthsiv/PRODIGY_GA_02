@@ -1,0 +1,21 @@
+# ============================================================
+# Text-to-Image Generation — Dependencies
+# ============================================================
+# Core ML frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+
+# HuggingFace ecosystem
+diffusers>=0.27.0
+transformers>=4.38.0
+accelerate>=0.27.0
+safetensors>=0.4.0
+
+# Image handling
+Pillow>=10.0.0
+
+# Web interface (Gradio)
+gradio>=4.19.0
+
+# Utilities
+python-dotenv>=1.0.0
